@@ -1,0 +1,22 @@
+{
+    "checkpoint_name": "checkpoint_final.pth",
+    "device": "cuda:0",
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": "nnUNet/nnUNet_raw/Dataset056_Spine/imagesTs",
+    "model_training_output_dir": "/Users/mjayasur/hounsfield_prediction/nnUNet/nnUNet_results/Dataset056_Spine/nnUNetTrainer__nnUNetPlans__3d_fullres",
+    "num_parts": 1,
+    "num_processes_preprocessing": 3,
+    "num_processes_segmentation_export": 3,
+    "output_folder": "nnUNet/nnUNet_raw/Dataset056_Spine/predictionsTs",
+    "overwrite": true,
+    "part_id": 0,
+    "perform_everything_on_gpu": true,
+    "save_probabilities": true,
+    "tile_step_size": 0.5,
+    "use_folds": [
+        "all"
+    ],
+    "use_gaussian": true,
+    "use_mirroring": true,
+    "verbose": false
+}
