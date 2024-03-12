@@ -46,8 +46,8 @@ Replace the "path/to/" with the actual path to the hounsfield_prediction directo
 Important: These variables will be deleted if you close your terminal! They will also only apply to the current terminal window and DO NOT transfer to other terminals!
 
 ### Run segmentation model inference
-Use the following command to run inference.
-``nnUNetv2_predict -i path/to/unzipped/nnUNet/nnUNet_raw/imagesTs -o path/to/unzipped/nnUNet/nnUNet_raw/predictionsTs -d Dataset056_Spine -c 3d_fullres --save_probabilities``
+Use the following command to run inference from within this folder.
+``nnUNetv2_predict -i nnUNet/nnUNet_raw/imagesTs -o nnUNet/nnUNet_raw/predictionsTs -d Dataset056_Spine -c 3d_fullres --save_probabilities``
 
 ### Get Hounsfield Units
 To visualize the results for a single test case, use the jupyter notebook called "viz.ipynb" in the base nnUNet directory you downloaded.
