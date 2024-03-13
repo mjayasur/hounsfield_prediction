@@ -1,5 +1,5 @@
 # Hounsfield Inference Instructions
-For the hounsfield project, we want to externally validate our supposedly working UNet segmentation model on Mayo Clinic internal data to see whether we are getting accurate Hounfield unit measurements. 
+For the hounsfield project, we want to externally validate our supposedly working UNet segmentation model on your own internal data to see whether we are getting accurate Hounfield unit measurements. 
 ## Download model / file code
 Clone the code and folder structure. https://github.com/mjayasur/hounsfield_prediction
 ## Test Data Setup
@@ -17,7 +17,7 @@ nnUNet/nnUNet_raw/
              ...
          └── VERSE_20_0000.nii.gz
 ```
-All of the Mayo data needs to be moved to nnUNet/nnUNet_raw/Dataset056_Spine/imagesTs for inference. 
+All of the data needs to be moved to nnUNet/nnUNet_raw/Dataset056_Spine/imagesTs for inference. 
 
 Each case needs to be renamed in the above way.
 
