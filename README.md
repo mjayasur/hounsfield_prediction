@@ -50,4 +50,4 @@ Use the following command to run inference from within this folder.
 ``nnUNetv2_predict -i nnUNet/nnUNet_raw/Dataset056_Spine/imagesTs -o nnUNet/nnUNet_raw/Dataset056_Spine/predictionsTs -d Dataset056_Spine -c 3d_fullres --save_probabilities -f all``
 
 ### Get Hounsfield Units
-To visualize the results for a single test case, use the jupyter notebook called "viz.ipynb" in the base nnUNet directory you downloaded.
+To visualize the results for a single test case, use the jupyter notebook called "find_hounsfield_units.ipynb" in the base nnUNet directory you downloaded.
